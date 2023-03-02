@@ -1,0 +1,49 @@
+/* Resetting the margin and padding of the html and body tags */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting the font family for the body and smoothing fonts on different browsers */
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Setting font sizes and line height for heading tags */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Setting a container with a maximum width, centered in the page with padding */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Adding a box-shadow effect to buttons */
+button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Setting color and background color for links */
+a {
+  color: #333;
+  background-color: #eee;
+}
+
+/* Setting padding and border for input and textarea elements */
+input[type="text"],
+textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Adding an opacity effect on hover for images */
+img:hover {
+  opacity: 0.8;
+}
