@@ -12,13 +12,13 @@ This portfolio showcases the skills I've acquired through the UCF Full Stack Cod
 - [Questions](#questions)
 
 ## Screenshot
-![alt text]()
+[alt text]()
 
 ## Usage
 This portfolio is intended to relay my developer skills to potential employers and co-authors. This site should only be used to review work with the intent of contacting me, Jared Davis, directly. No links should be produced to my portfolio or work without my consent.
 
 ## License
-*[The Unlicense](https://unlicense.org/)* 
+[The Unlicense](https://unlicense.org/)
 
 ## Questions
 Please visit my site to reach me directly!
