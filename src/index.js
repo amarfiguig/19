@@ -1,24 +1,14 @@
-// Import necessary components
+// Import necessary modules and components
 import React from 'react';
-import Header from './components/Header'; // Header component
-import About from './components/About'; // About component
-import Portfolio from './components/Portfolio'; // Portfolio component
-import ContactUs from './components/ContactUs'; // ContactUs component
-import Footer from './components/Footer'; // Footer component
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-// Define the main App component
-const App = () => {
-  // Render all the necessary components and pass the data as props
-  return (
-    <>
-      <Header />
-      <About />
-      <Portfolio />
-      <ContactUs />
-      <Footer />
-    </>
-  );
-}
+// Render the App component to the root element in the HTML file
+ReactDOM.render(<App />, document.getElementById('root'));
 
-// Export the App component as the default export
-export default App;
+// Optional: register the service worker to enable offline functionality and faster load times
+// Note: this is not always necessary and has some potential pitfalls
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister();
