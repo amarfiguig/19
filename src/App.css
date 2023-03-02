@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  /* Define some color variables */
+  --primary-color: #2a9d8f;
+  --secondary-color: #e9c46a;
+  --text-color: #333;
+}
+
+/* Apply the Open Sans font to the entire page */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Style the headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Set a default text color */
+p {
+  color: var(--text-color);
+}
+
+/* Style links */
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /* Styles for the App component */
 .App {
   text-align: center; /* Align child elements to the center */
